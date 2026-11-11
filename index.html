@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-highest": "#e5e2dd", "on-error": "#ffffff", "outline": "#827472", "outline-variant": "#d3c3c0", "error": "#ba1a1a", "on-surface": "#1c1c19", "secondary-fixed": "#ffe088", "primary-container": "#3e2723", "on-tertiary-container": "#9f9192", "surface-container-lowest": "#ffffff", "on-secondary-container": "#745c00", "tertiary": "#1e1717", "surface-variant": "#e5e2dd", "surface-container-low": "#f6f3ee", "on-background": "#1c1c19", "surface-container-high": "#ebe8e3", "on-secondary": "#ffffff", "on-primary-container": "#ae8d87", "on-tertiary-fixed-variant": "#4e4445", "background": "#fcf9f4", "on-tertiary-fixed": "#221a1a", "on-secondary-fixed": "#241a00", "surface-dim": "#dcdad5", "error-container": "#ffdad6", "tertiary-fixed": "#efdfdf", "on-tertiary": "#ffffff", "on-primary": "#ffffff", "inverse-surface": "#31302d", "inverse-on-surface": "#f3f0eb", "tertiary-container": "#342b2b", "primary-fixed-dim": "#e3beb8", "on-surface-variant": "#504442", "secondary": "#735c00", "surface-container": "#f0ede9", "on-secondary-fixed-variant": "#574500", "primary": "#271310", "secondary-container": "#fed65b", "surface-bright": "#fcf9f4", "on-error-container": "#93000a", "surface-tint": "#745853", "tertiary-fixed-dim": "#d2c3c3", "inverse-primary": "#e3beb8", "primary-fixed": "#ffdad4", "surface": "#fcf9f4", "on-primary-fixed-variant": "#5b403c", "on-primary-fixed": "#2b1613", "secondary-fixed-dim": "#e9c349" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-mobile": "1.25rem", "gutter": "1.5rem", "gutter-mobile": "1rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "margin": "3rem", "space-md": "1rem" }, "fontFamily": { "label-md": [ "Be Vietnam Pro" ], "display-mobile": [ "EB Garamond" ], "display": [ "EB Garamond" ], "headline-lg-mobile": [ "EB Garamond" ], "headline-md": [ "EB Garamond" ], "title-md": [ "Be Vietnam Pro" ], "label-lg": [ "Be Vietnam Pro" ], "headline-sm": [ "Be Vietnam Pro" ], "body-lg": [ "Be Vietnam Pro" ], "label-sm": [ "Be Vietnam Pro" ], "body-md": [ "Be Vietnam Pro" ], "body-sm": [ "Be Vietnam Pro" ], "headline-lg": [ "EB Garamond" ] }, "fontSize": { "label-md": [ "12px", { "lineHeight": "16px", "fontWeight": "600" } ], "display-mobile": [ "38px", { "lineHeight": "46px", "fontWeight": "500" } ], "display": [ "56px", { "lineHeight": "64px", "fontWeight": "500" } ], "headline-lg-mobile": [ "30px", { "lineHeight": "38px", "fontWeight": "500" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "600" } ], "title-md": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "label-lg": [ "14px", { "lineHeight": "20px", "fontWeight": "600" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "body-lg": [ "17px", { "lineHeight": "26px", "fontWeight": "400" } ], "label-sm": [ "10px", { "lineHeight": "14px", "fontWeight": "700" } ], "body-md": [ "15px", { "lineHeight": "22px", "fontWeight": "400" } ], "body-sm": [ "13px", { "lineHeight": "18px", "fontWeight": "400" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "fontWeight": "500" } ] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Ham Miu Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBaxeta0qhyRvmxlDkNRFaO89sxYR_8UIJg3fVaPOZKLyOjoS_-Wc_JaaWcT9K8cyjRQPBVyV469EjNTeHzcvvAaifDQt5oTdpFA3QjAinF6vGPFvPyU4Qv6VC7l3G4BeYGODaxK2kNnU0vRPFHTfmelqXzoxd2IleP1ocoK9n0H1RkzBvX09lKyggnA7jEM7y3o8yvagnna4nVHD_mO2ESQ_yVGQ5SxHcOIbMJQ"/><a class="flex flex-col text-left" data-path="trang-chu" href="#"><span class="font-headline-md text-headline-md text-primary tracking-wide leading-none">Ham Miu</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Haute Pâtisserie</span></a></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary font-title-md text-title-md rounded-lg"><a class="font-title-md text-title-md px-3 py-2 text-on-surface-variant hover:text-primary transition-colors duration-200" data-path="trang-chu" href="#">Trang Chủ</a><a class="font-title-md text-title-md px-3 py-2 text-on-surface-variant hover:text-primary transition-colors duration-200" data-path="thuc-don-dac-biet" href="#">Thực Đơn Đặc Biệt</a><a class="font-title-md text-title-md px-3 py-2 text-on-surface-variant hover:text-primary transition-colors duration-200" data-path="danh-gia" href="#">Đánh Giá</a><a class="font-title-md text-title-md px-3 py-2 text-on-surface-variant hover:text-primary transition-colors duration-200" data-path="lien-he-dat-ban" href="#">Liên Hệ &amp; Đặt Bàn</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center font-label-lg text-label-lg px-space-lg py-3 rounded-lg bg-secondary-container text-on-secondary-container hover:bg-secondary-fixed-dim hover:text-on-secondary-fixed transition-all duration-200 shadow-[0_4px_20px_rgba(62,39,35,0.04)] font-semibold tracking-wide" data-path="dat-banh-ngay" href="#">Đặt Bánh Ngay</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-container-low via-surface to-surface-container-low py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Text Side (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-6 items-start text-left z-10">
+<!-- Prestige Atelier Tag -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary-fixed/30 text-on-secondary-fixed text-label-md font-semibold tracking-wider uppercase">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+          Nghệ Thuật Bánh Ngọt Pháp Thủ Công
+        </div>
+<!-- Headline -->
+<h1 class="font-headline-lg text-headline-lg md:text-display text-primary leading-tight font-medium">
+          Nghệ Thuật Bánh Ngọt Thủ Công Chuẩn Vị Pháp – <span class="italic text-secondary font-normal">Đánh Thức Mọi Giác Quan</span> Tại Ham Miu
+        </h1>
+<!-- Subheadline -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          Được đúc kết từ tinh hoa bơ Pháp AOP thượng hạng của xứ Normandy, vanilla Madagascar nguyên chất ngọt ngào và tình yêu nồng nàn được người thợ nhào nặn trong từng mẻ bánh mỗi sáng sớm. Mỗi chiếc bánh là một tác phẩm haute-pâtisserie đích thực.
+        </p>
+<!-- CTA Buttons -->
+<div class="flex flex-wrap items-center gap-4 pt-2 w-full sm:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary-container transition-all duration-300" href="#menu-tinh-hoa">
+<span>Khám Phá Menu Thượng Hạng</span>
+<span class="material-symbols-outlined text-[18px]">restaurant_menu</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-lg bg-surface-container-high text-primary hover:bg-secondary-container hover:text-on-secondary-container font-label-lg text-label-lg transition-all duration-300" href="#dat-ban-tu-van">
+<span>Đặt Bàn &amp; Tư Vấn</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</a>
+</div>
+<!-- Trust Badges -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 w-full">
+<div class="flex items-center gap-3 p-3 rounded-lg bg-surface-container/60 backdrop-blur-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">verified</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">100% Nhập Khẩu</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bơ &amp; Vani AOP Pháp</span>
+</div>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-lg bg-surface-container/60 backdrop-blur-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">bakery_dining</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Nướng Tươi Mỗi Sáng</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Không chất bảo quản</span>
+</div>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-lg bg-surface-container/60 backdrop-blur-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">award_star</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Bếp Trưởng Michelin</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Công thức bí truyền</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Image & Visual Composition (5 cols) -->
+<div class="lg:col-span-5 relative flex justify-center items-center">
+<!-- Ambient decorative glow -->
+<div class="absolute -inset-4 bg-gradient-to-tr from-secondary-fixed/40 to-surface-tint/10 rounded-full blur-2xl opacity-60"></div>
+<div class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-xl bg-surface-container">
+<img alt="Tuyệt tác bánh ngọt Ham Miu" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" data-alt="Exquisite French haute pâtisserie entremet and mille-feuille arranged on an antique gold-rimmed porcelain tier in an opulent Parisian salon, natural warm morning sunlight filtering through lace curtains, dusted with powdered sugar and real gold leaf flakes, macro culinary studio photography, ultra-luxurious mood" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6fI4BjspfjUdskbwz4DVKHAy4n3bTqfwsqD5fdbs8exFe30q8RJ-j4veW8RzkZo4f3uVEC-uKiRWNTtFC2OjbYzIYjylWHm9iZedBJI95RhJHnrlQoEfcuodd4aJ0Z-0yJPNOl5SekrbUgbYaSMPuTyOjVQvKzJ4Mq4AKn5KMLy0waFnlFfGgwNwxO-ePT9S2Ia4RZ-g1L6BIdiygsEI-qWB_mpVXdrs6G3HruA"/>
+<div class="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-surface/90 backdrop-blur-md shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Bộ Sưu Tập Mùa Thu</span>
+<span class="font-title-md text-title-md text-primary">Étoile d'Or Signature</span>
+</div>
+<span class="font-label-md text-label-md px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed">Mới Ra Mắt</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Menu Section: Thực Đơn Tinh Hoa -->
+<section class="w-full py-20 px-6 lg:px-12 bg-surface" id="menu-tinh-hoa">
+<div class="max-w-7xl mx-auto">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-16 gap-3">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">Thực Đơn Tinh Hoa</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Sáng Tạo Độc Bản Từ Đôi Bàn Tay Bậc Thầy</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Tuyển tập 6 kiệt tác bánh ngọt kinh điển được kết hợp đầy thăng hoa cùng nguyên liệu thượng phẩm nhập khẩu nguyên đai nguyên kiện.
+        </p>
+</div>
+<!-- 6 Pastry Cards Bento/Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1: Mille-Feuille -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img alt="Mille-Feuille Vani Madagascar Hoàng Gia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Classic French Mille-Feuille with caramelized crisp puff pastry layers and rich speckled Madagascar vanilla bean diplomat cream, drizzled with delicate spun sugar and gold leaf, captured in dramatic high-end boutique lighting, fine dining presentation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcQCtGhiTf_THt8fGqiz70EmJHRKMPXYIODzk-xduBQhApsrK-rnsxGie5BrCd0ZJ_koNEkExJmmnnawy-E0pS1W8K4GJrRkHu-Srf7lX3gKZjCMq0TtOZIE9-2zOQf-QED8oyEFhCLKB3QSHfE8Cg7JWdu_gWemtNJaCgrRsEOlxAdZ7pnsdpA1LzbCp4AKhiUoQf1NqQjmK0PJ0dcm3QLstmftgwi4MmeRXgjw"/>
+<span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md shadow-sm">
+              Best Seller
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Mille-Feuille Vani Madagascar Hoàng Gia</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Bánh ngàn lớp giòn tan quyện kem sữa béo ngậy từ đốm hạt vani Madagascar nguyên quả cùng lớp caramen mỏng óng ánh tinh tế.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low/50 -mx-6 -mb-6 px-6 py-4">
+<span class="font-title-md text-title-md text-secondary font-bold">145.000₫</span>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" onclick="handleSelectCake('Mille-Feuille Vani Madagascar Hoàng Gia')">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+                Đặt Món
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 2: Macaron Set -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img alt="Macaron Set Trân Quý Tình Yêu" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxury box of pastel artisanal French macarons in six exquisite flavors including raspberry, Uji matcha, and black truffle dark chocolate, displayed in an embossed satin-finish luxury gift box with golden foil, elegant food photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8q-0gJKc38oD2et7E5Vibphhx7TRmjq04mXDgSm-mCsK11Uyul1pWYm7bP4tAofxt6xxcy03HGPDkNf1cV_9CzhIfel7OMXz3vAnhDCVUh4ji--piUmWDFix-M1qFZUVNZqyCrko2XgMyqZAGLc0Vyh3skgn5gLGedP1y1Gsp-6Yon1Ag5M2exA6Qwlpq5xPE1FRGdsAPfjfhSSD0s6k4REHgaR4Drm4BtY6QMQ"/>
+<span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md shadow-sm">
+              Signature
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Macaron Set Trân Quý Tình Yêu</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Hộp 6 vị tinh tuyển từ quả mâm xôi tươi, matcha Uji thanh mát, và socola truffle béo mềm. Vỏ bánh xốp mịn tan ngay đầu lưỡi.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low/50 -mx-6 -mb-6 px-6 py-4">
+<span class="font-title-md text-title-md text-secondary font-bold">220.000₫</span>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" onclick="handleSelectCake('Macaron Set Trân Quý Tình Yêu')">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+                Đặt Món
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 3: Tart Dâu Rừng & Hạt Dẻ Cười -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img alt="Tart Dâu Rừng &amp; Hạt Dẻ Cười Sicilia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal wild berry and Sicilian pistachio tart with glossy ruby strawberries, emerald green pistachio frangipane cream on a crisp golden sablé crust, garnished with edible rose petals, bright sunlit bakery presentation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKCKfKMTh7tU3kT7eDiJErHz-VLX1A4zj-8YZG7oefO4gpVmIPDAcB4DFkeZ2FPCtNFeUeWX2-p9oq-B2bGNqtvOpEFneP_cmRAdHzRj2w_MQi-vcBxYAVyrcKoYR7ReGYFaAhYc2rNAU7tzA_PElzhK6t1OKng0t6qT_wE1M2NOmNI_98ym3sg_itL4USF9gH7UQ7c2PnF-TABXTLXt0HNXgFlC1_uAyMdNarbQ"/>
+<span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md shadow-sm">
+              Chef's Choice
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Tart Dâu Rừng &amp; Hạt Dẻ Cười Sicilia</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Đế tart bơ giòn rụm với dâu tây mọng nước thơm lành kết hợp kem hạt dẻ Sicilia bùi béo, điểm xuyết sốt mâm xôi dịu ngọt.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low/50 -mx-6 -mb-6 px-6 py-4">
+<span class="font-title-md text-title-md text-secondary font-bold">165.000₫</span>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" onclick="handleSelectCake('Tart Dâu Rừng &amp; Hạt Dẻ Cười Sicilia')">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+                Đặt Món
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 4: Opera Cake Sô-cô-la Bỉ -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img alt="Opera Cake Sô-cô-la Bỉ Đậm Đà" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Multi-layered French Opera cake with precise geometric layers of almond joconde sponge soaked in rich espresso syrup, dark Belgian chocolate ganache, coffee buttercream, mirrored with high-gloss chocolate glaze on white marble, moody studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADADDsG-s5a-uv5UoE25OlkGQ2SJQ7Nj0LlXYqoI5eQg5Sft3JBcus-sRpjy8k58cf_JQl2U5lkbJkoHLHe5ZeobMWgq2yR3pt6skm6FF5S14ILLUrVjG9kthOM4pu47l0CmWnUhjzRz8NCo7HIhcieabSrY0ScUgxOkX6uJZph80mU5vfAh7Q7WcEGXuH9buBc6BpVTta6iNzJ110av2UncKax-w7zPh2qTCp5w"/>
+<span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md shadow-sm">
+              Signature
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Opera Cake Sô-cô-la Bỉ Đậm Đà</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Tuyệt phẩm hòa quyện cà phê espresso nồng nàn cùng socola Bỉ 72% nguyên chất xen kẽ cốt bánh Joconde mềm mượt lôi cuốn.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low/50 -mx-6 -mb-6 px-6 py-4">
+<span class="font-title-md text-title-md text-secondary font-bold">150.000₫</span>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" onclick="handleSelectCake('Opera Cake Sô-cô-la Bỉ Đậm Đà')">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+                Đặt Món
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 5: Croissant Hạnh Nhân Bơ Pháp AOP -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img alt="Croissant Hạnh Nhân Bơ Pháp AOP" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Freshly baked golden French almond croissant bursting with creamy frangipane cream, generously covered with toasted sliced almonds and powdered sugar, resting on natural rustic baking parchment with steam rising gently" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAwHVGA_R_kNyCJRgYmtrRcCIr_U6X9CLjuSslCUUtsT70VxfiHKd0l5kAaQjm9PaNwT_IeN5jXTvEVGR9hJsVQKeEyb0g1Ldx6uug2Pn3BQ4rh0KYqxIwBGp2Kiwj92GYdSPFxUkGM_tB5mJLU9jUQRbKtQ4xMn4NNNn3e55Vm7Pu9cC6oOwIE0HAjB5XtiAyfc9ZsMjmFyObdhS_CTnRclRfeeZhMPr8oSIusQ"/>
+<span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md shadow-sm">
+              Best Seller
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Croissant Hạnh Nhân Bơ Pháp AOP</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Vỏ bánh giòn rụm tỏa ngát hương thơm bơ kem tươi Montaigu và hạnh nhân lát nướng vàng ươm, nhân kem frangipane ngọt bùi.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low/50 -mx-6 -mb-6 px-6 py-4">
+<span class="font-title-md text-title-md text-secondary font-bold">85.000₫</span>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" onclick="handleSelectCake('Croissant Hạnh Nhân Bơ Pháp AOP')">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+                Đặt Món
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 6: Entremet Trái Tim Ruby -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img alt="Entremet Trái Tim Ruby Lãng Mạn" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heart-shaped French entremet cake coated in a flawless velvety crimson ruby mirror glaze, set on a dark slate tray with edible 24k gold leaf and fresh raspberries, luxury romantic dessert aesthetic, studio rim lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn8X3J_h9tvKfV4t5y5SozWjT9r03PBk2UsjqIFTIfaNbTFSq_aJoUSS2ZZRjhVBv4M1JiLPAdTd1PKtTBiCv_UKVZPdBr7HtMWv6p_D5nQS1wRE2WYbrtzry92TdP1WrxwoXx5eXtxSoEh_HxdEiK97r5014cem4cWiM6CoDEM2mSPwNxfBNLcijV8f5n6so6JGCP7ZxYaE_VErpV8NuUBsa7FGr8rGJ8Kq-NkA"/>
+<span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md shadow-sm">
+              Chef's Choice
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Entremet Trái Tim Ruby Lãng Mạn</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Bánh lạnh tráng gương nhung đỏ với nhân mứt phúc bồn tử thanh mát, quyện cùng mousse socola trắng Valrhona ngọt ngào sâu lắng.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-4 bg-surface-container-low/50 -mx-6 -mb-6 px-6 py-4">
+<span class="font-title-md text-title-md text-secondary font-bold">180.000₫</span>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" onclick="handleSelectCake('Entremet Trái Tim Ruby Lãng Mạn')">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+                Đặt Món
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Customer Testimonials Section: Đánh Giá Từ Khách Hàng -->
+<section class="w-full py-20 px-6 lg:px-12 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-16 gap-3">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">Trải Nghiệm Độc Bản</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Lời Khen Ngợi Từ Khách Quý</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Cảm xúc chân thật và sự say mê của những tâm hồn đồng điệu dành tặng cho tiệm bánh Ham Miu.
+        </p>
+</div>
+<!-- 3 Testimonial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Review 1 -->
+<div class="flex flex-col justify-between p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow relative">
+<div class="flex flex-col gap-4">
+<!-- 5 Golden Stars -->
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed">
+              “Hương vị Mille-Feuille tại Ham Miu thực sự đưa tôi trở lại những con phố cổ Paris. Vỏ bánh giòn xốp hoàn hảo, ngọt thanh tao nhã không hề gắt.”
+            </p>
+</div>
+<div class="flex items-center gap-4 pt-6 mt-6 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-high shrink-0">
+<img alt="Chị Lan Anh" class="w-full h-full object-cover" data-alt="Portrait photo of an elegant Vietnamese female food critic smiling in a warm Parisian-style tea room with soft natural lighting and champagne accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCbM2apG0BElamoHdSgHv_BievaGnsy_julx72I53aoyfypEsSfqza8gV-KM3vIPG9STU0X8Ar7Pwb6pnEuN5q6C2RWBwWbXqeU3DoZMOhiONn_mVzbgaL9kgYxJFfUJBMXNuU1HU26f-k3gzrCVXIUuolT5mPXuDjK1kYWJ8s42DFovzRMMAjXehrfpyMKHPOvjP9Vb2I4rzK79Bvxy6ihg1zUWa87O2m9ARuUA"/>
+</div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-bold">Chị Lan Anh</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Food Critic &amp; Lifestyle Blogger</span>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="flex flex-col justify-between p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow relative">
+<div class="flex flex-col gap-4">
+<!-- 5 Golden Stars -->
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed">
+              “Tôi đã đặt set bánh kỷ niệm ngày cưới tại tiệm bánh Ham Miu. Cách bày trí bánh tinh tế như một tác phẩm nghệ thuật, khách mời ai cũng khen ngợi!”
+            </p>
+</div>
+<div class="flex items-center gap-4 pt-6 mt-6 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-high shrink-0">
+<img alt="Anh Hoàng Nam" class="w-full h-full object-cover" data-alt="Sophisticated portrait of an Asian male architect in smart casual tailoring, smiling gently with a warm aesthetic café background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3-ErMnm-4jAf4Gl4rj8s-6k9K22YkEW_Isb08XGxvOIUSLp-5G_SIFMaGOdDjKOm342nRgEKaeyfMCWxGtYOrnPdfilO5GCCi9i888T3YQWaPeVpL8vikIiaK_08_DsyZmstkcc68r_xa27BYBm4TiEww5iuBCsPJ6bYkFrNdjD5mDO842d7p_3_jnxKNglKJu_6BtUkHFLHQCs6hR5YfNPi9HVFBeELn-wc2bg"/>
+</div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-bold">Anh Hoàng Nam</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kiến Trúc Sư</span>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="flex flex-col justify-between p-8 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow relative">
+<div class="flex flex-col gap-4">
+<!-- 5 Golden Stars -->
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed">
+              “Không gian tiệm thơm phức mùi bơ thơm nức, các bạn nhân viên chu đáo và Macaron ở đây là số 1 tại thành phố. Tôi ghé qua mỗi tuần.”
+            </p>
+</div>
+<div class="flex items-center gap-4 pt-6 mt-6 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-high shrink-0">
+<img alt="Bạn Mai Phương" class="w-full h-full object-cover" data-alt="Close up portrait of an elegant young Vietnamese woman in warm boutique lighting, natural radiant smile, high end lifestyle photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsOvXz-TS27wQtWj9Ewou9WG273-ZQwwXD8QklOYCUHIU_hN-KDZKzpXVGkimgfV7ymDrDbWd5i3P0RBhcaNcqv82gcGCp2zpEp94lC4Fo3CBKSyN_QHc5VPh7XYcyNTqZgWtyiXihqZr4SZCatUwtlaDWninYKUek-a0M-JARtWVB_7mte6-Ve_xO1Ydq_5W1F7r_3NGInB8R7GNf_zOGj_zfNlhealPLPDl3fw"/>
+</div>
+<div class="flex flex-col">
+<h4 class="font-title-md text-title-md text-primary font-bold">Bạn Mai Phương</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Chuyên Viên Sáng Tạo Nội Dung</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact & Reservation Section: Thông Tin Liên Hệ & Form Đặt Bánh -->
+<section class="w-full py-20 px-6 lg:px-12 bg-surface" id="dat-ban-tu-van">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left: Atelier Information (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-8 bg-surface-container-low p-8 lg:p-10 rounded-2xl">
+<div class="flex flex-col gap-2">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">Liên Hệ &amp; Đặt Tiệc</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Ham Miu Atelier</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Hân hạnh đón tiếp quý khách đến thưởng thức những khoảnh khắc trà chiều lãng mạn hoặc chuẩn bị những hộp bánh quà tặng sang trọng cho những dịp trọng đại.
+            </p>
+</div>
+<div class="flex flex-col gap-6">
+<!-- Địa Chỉ -->
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold">Địa Chỉ Tiệm Bánh</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Số 88 Đại Lộ Ánh Dương, Quận Hoàn Kiếm, Hà Nội</span>
+</div>
+</div>
+<!-- Hotline -->
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold">Hotline Đặt Bánh Nhanh</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">0908 688 888 • 024 3999 6688</span>
+</div>
+</div>
+<!-- Email -->
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold">Email Liên Hệ</span>
+<span class="font-body-md text-body-md text-on-surface-variant">contact@hammiupatisserie.vn</span>
+</div>
+</div>
+<!-- Giờ Mở Cửa -->
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary font-semibold">Giờ Mở Cửa</span>
+<span class="font-body-md text-body-md text-on-surface-variant">07:30 – 22:00 (Mỗi ngày kể cả ngày Lễ)</span>
+</div>
+</div>
+</div>
+<!-- Dịch vụ sự kiện đặc biệt banner -->
+<div class="p-4 rounded-xl bg-surface-container flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[26px]">celebration</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+              Nhận thiết kế bánh cưới nghệ thuật, tiệc finger food và hộp quà doanh nghiệp khắc tên riêng.
+            </span>
+</div>
+</div>
+<!-- Right: Inquiry Form (7 cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-8 lg:p-10 rounded-2xl shadow-sm">
+<div class="flex flex-col gap-2 mb-8">
+<h3 class="font-headline-md text-headline-md text-primary">Gửi Yêu Cầu Đặt Bánh &amp; Đặt Bàn</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Vui lòng để lại thông tin, chuyên viên tư vấn Ham Miu sẽ liên hệ xác nhận trong vòng 15 phút.
+            </p>
+</div>
+<form class="flex flex-col gap-5" id="ham-miu-contact-form" onsubmit="handleFormSubmit(event)">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<!-- Họ và Tên -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-primary font-semibold" for="fullName">Họ và Tên *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary transition-all outline-none" id="fullName" name="fullName" placeholder="Ví dụ: Nguyễn Phương Thảo" required="" type="text"/>
+</div>
+<!-- Độ tuổi / Danh xưng -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-primary font-semibold" for="salutation">Danh xưng / Độ tuổi *</label>
+<select class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary transition-all outline-none" id="salutation" name="salutation" required="">
+<option value="Anh">Anh</option>
+<option selected="" value="Chị">Chị</option>
+<option value="Cô/Chú">Cô / Chú</option>
+<option value="Khác">Khác</option>
+</select>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<!-- Số điện thoại -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-primary font-semibold" for="phone">Số Điện Thoại *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary transition-all outline-none" id="phone" name="phone" placeholder="09xx xxx xxx" required="" type="tel"/>
+</div>
+<!-- Email -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-primary font-semibold" for="email">Email Liên Hệ *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary transition-all outline-none" id="email" name="email" placeholder="email@vidu.vn" required="" type="email"/>
+</div>
+</div>
+<!-- Loại dịch vụ quan tâm -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-primary font-semibold" for="serviceType">Dịch Vụ Quý Khách Quan Tâm *</label>
+<select class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary transition-all outline-none" id="serviceType" name="serviceType" required="">
+<option value="dat-banh-sinh-nhat">Đặt bánh sinh nhật / Kỷ niệm thiết kế riêng</option>
+<option value="dat-ban-tra-chieu">Đặt bàn tiệc trà chiều tại tiệm bánh</option>
+<option value="tiec-qua-tang">Tiệc cưới &amp; Hộp quà doanh nghiệp cao cấp</option>
+<option value="khac">Yêu cầu bánh ngọt theo mùa đặc biệt</option>
+</select>
+</div>
+<!-- Lời nhắn / Góp ý / Yêu cầu riêng -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-primary font-semibold" for="notes">Lời Nhắn / Yêu Cầu Hương Vị Riêng</label>
+<textarea class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary transition-all outline-none resize-none" id="notes" name="notes" placeholder="Ghi chú sở thích ăn ngọt ít đường, dị ứng quả hạch, thời gian giao bánh hoặc số lượng khách tham dự..." rows="4"></textarea>
+</div>
+<!-- Form submission message indicator -->
+<div class="hidden p-4 rounded-lg bg-secondary-fixed/40 text-on-secondary-fixed font-body-md text-body-md" id="form-feedback"></div>
+<!-- Submit Button -->
+<div class="pt-2">
+<button class="w-full py-4 px-8 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-lg text-label-lg font-semibold transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center gap-2" type="submit">
+<span>Gửi Yêu Cầu Cho Ham Miu</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Client-side Script -->
+<script>
+    function handleSelectCake(cakeName) {
+      const notesEl = document.getElementById('notes');
+      const serviceEl = document.getElementById('serviceType');
+      if (notesEl && serviceEl) {
+        serviceEl.value = 'dat-banh-sinh-nhat';
+        notesEl.value = 'Tôi quan tâm và muốn đặt món bánh: ' + cakeName + '. Xin vui lòng tư vấn chi tiết.';
+        document.getElementById('dat-ban-tu-van').scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const form = document.getElementById('ham-miu-contact-form');
+      const feedback = document.getElementById('form-feedback');
+      const name = document.getElementById('fullName').value;
+      
+      feedback.classList.remove('hidden');
+      feedback.textContent = 'Cảm ơn ' + name + '! Yêu cầu của quý khách đã được ghi nhận. Tiệm bánh Ham Miu sẽ liên hệ lại trong thời gian sớm nhất.';
+      
+      form.reset();
+      setTimeout(function() {
+        feedback.classList.add('hidden');
+      }, 7000);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-md text-headline-md text-primary">Ham Miu</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Atelier</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Nghệ thuật bánh ngọt Pháp thủ công thượng hạng. Tinh hoa ẩm thực lãng mạn kết hợp cùng nguyên liệu cao cấp chuẩn hoàng gia Paris.</p></div><div class="flex flex-col gap-space-xs"><h4 class="font-title-md text-title-md text-primary font-bold">Địa Chỉ &amp; Liên Hệ</h4><p class="font-body-sm text-body-sm text-on-surface-variant">48 Tràng Tiền, Hoàn Kiếm, Hà Nội</p><p class="font-body-sm text-body-sm text-on-surface-variant">Hotline: +84 (0) 24 3988 6688</p><p class="font-body-sm text-body-sm text-on-surface-variant">Email: bonjour@hammiu.vn</p></div><div class="flex flex-col gap-space-xs"><h4 class="font-title-md text-title-md text-primary font-bold">Giờ Mở Cửa</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Thứ Hai - Thứ Sáu: 08:00 - 21:30</p><p class="font-body-sm text-body-sm text-on-surface-variant">Thứ Bảy - Chủ Nhật: 08:00 - 22:30</p><p class="font-body-sm text-body-sm text-secondary font-medium">Phục vụ tiệc trà &amp; bánh theo hẹn trước</p></div><div class="flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-primary font-bold">Kết Nối Cùng Ham Miu</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Theo dõi những tác phẩm bánh ngọt mới nhất tại atelier.</p><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary bg-surface-container p-2 rounded-full hover:bg-secondary-container hover:text-on-secondary-container transition-colors cursor-pointer text-[20px]">share</span><span class="material-symbols-outlined text-primary bg-surface-container p-2 rounded-full hover:bg-secondary-container hover:text-on-secondary-container transition-colors cursor-pointer text-[20px]">camera</span><span class="material-symbols-outlined text-primary bg-surface-container p-2 rounded-full hover:bg-secondary-container hover:text-on-secondary-container transition-colors cursor-pointer text-[20px]">mail</span></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 Ham Miu Haute Pâtisserie. Bản quyền thuộc về tiệm bánh Ham Miu.</p><div class="flex items-center gap-space-md"><span class="font-label-md text-label-md text-on-surface-variant">Chính Sách Bảo Mật</span><span class="font-label-md text-label-md text-on-surface-variant">Điều Khoản Dịch Vụ</span></div></div></div></footer></body></html>
